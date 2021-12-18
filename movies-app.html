@@ -17,8 +17,8 @@
         <article class="col-sm-6" id="movies-app-col-left">
             <form id="movies-app-form" class="">
                 <h4>Add Movie</h4>
-                <input class="movie-form-input" type="text" placeholder="Movie Title">
-                <input class="movie-form-input" type="number" min="0" max="10" placeholder="Rating">
+                <input class="movie-form-input" type="text" id="movie-title-input" placeholder="Movie Title" minlength="2">
+                <input class="movie-form-input" type="number" min="0" max="10" id="movie-rating-input" placeholder="Rating">
                 <button id="add-btn">ADD TO LIST</button>
             </form>
         </article>
@@ -40,7 +40,7 @@
     </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="app.js"></script>
+    <script src="movies-app.js"></script>
 
 </body>
     

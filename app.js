@@ -13,7 +13,7 @@ $('article p').eq(5).remove();
 
 
 //Set the font size of the title to be a random pixel size from 0 to 100.
-$('#title').css('font-size', '52px');
+$('#title').css('font-size', Math.random() * 100);
 
 
 //Add an item to the list; it can say whatever you want.
