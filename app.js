@@ -21,7 +21,7 @@ $('ol').append('<li>...in a cup!</li>');
 
 
 //Scratch that; the list is silly. Empty the aside and put a paragraph in it apologizing for the list’s existence.
-$("aside")
+$("#aside")
     .empty()
     .append($("<p>Sorry for the foolishness. Here's a paragraph instead.</p>"));
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="row" id="movies-app">
+        <h2 class="text-center">Movies App!</h2>
+    
+        <article class="col-sm-6" id="movies-app-col-left">
+            <form id="movies-app-form" class="">
+                <h4>Add Movie</h4>
+                <input class="movie-form-input" type="text" placeholder="Movie Title">
+                <input class="movie-form-input" type="number" min="0" max="10" placeholder="Rating">
+                <button id="add-btn">ADD TO LIST</button>
+            </form>
+        </article>
+        <aside id="movies-list" class="col-sm-5 columns">
+            <h4>Ratings List</h4>
+            <hr>
+            <div class="movie-list-item">
+                <span class="rating">6</span>
+                <span class="movie-title">Movie Title</span>
+                <button class="remove-btn"></button>
+
+            </div>
+            <div class="movie-list-item">
+                <span class="rating">6</span>
+                <span class="movie-title">Movie Title</span>
+                <button class="remove-btn"></button>
+            </div>
+        </aside>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app.js"></script>
+
+</body>
+    
+</html>
