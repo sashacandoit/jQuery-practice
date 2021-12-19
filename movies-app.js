@@ -20,7 +20,6 @@ $('#movies-list').on('click', 'button', function () {
 })
 
 
-
 //PREVENT DOM FROM RELOADING ON FORM SUBMIT
 let moviesAppForm = document.getElementById('movies-app-form');
 moviesAppForm.addEventListener('submit', (e) => {
